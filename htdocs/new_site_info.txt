@@ -1,0 +1,11 @@
+<!-- For production servers you should consider replacing this file with one 
+  that is not tracked by git and setting and setting the variable
+  $webworkFiles{site_info} in localOverrides.conf.  This will prevent the file 
+  from being overwritten when you switch branches or by upgrades.  
+ -->
+<!-- DONE! Old file is site_info.txt 
+-->
+
+WeBWorK-server administrert av <a href="http://akademix.no">AkademiX</a>. Kontakt oss på <a href="mailto:kontakt@akademix.no?subject=WeBWorK">kontakt@akademix.no</a> dersom du ønsker å ta i bruk systemet i ditt eget kurs.
+
+

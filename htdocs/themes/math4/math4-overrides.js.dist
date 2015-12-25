@@ -14,7 +14,7 @@
 $(function () {
 
 /* This changes the WeBWorK Logo on the top left to a new image */
-//    $('.webwork_logo a img').attr('src','new-path-here');
+    $('.webwork_logo a img').attr('src','https://media.snl.no/system/images/18569/standard_LogoHiB.gif');
 
 /* This changes the MAA Logo on the top to a new image */
 //    $('.maa_logo a img').attr('src','new-path-here');

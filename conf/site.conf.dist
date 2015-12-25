@@ -67,7 +67,7 @@ $server_groupID    = 'wwdata';
 #$server_apache_version = ''; # e.g. '2.22.1'
 
 # Set this to override the default admin email set by apache.  
-$webwork_server_admin_email ='';
+$webwork_server_admin_email ='alexander.lundervold@hib.no';
 
 
 ################################################################################

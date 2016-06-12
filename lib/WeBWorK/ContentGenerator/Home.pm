@@ -85,7 +85,8 @@ sub body {
 		}
 	}
 	
-	print CGI::p($r->maketext("Welcome to our WeBWorK instance! Usually you will access courses directly and not see this website. Click on your course in the list of HiB and UiB courses below. Contact your course administrator if you have questions."));
+	print CGI::p($r->maketext("Welcome to our WeBWorK instance!"));
+	print CGI::p($r->maketext("Usually you will access courses directly and not see this website. Click on your course in the list of HiB and UiB courses below. Contact your course administrator if you have questions."));
 	
 	
 	if ($haveAdminCourse and !(-f "$coursesDir/admin/hide_directory")) {

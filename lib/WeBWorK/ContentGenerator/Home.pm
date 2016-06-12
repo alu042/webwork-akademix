@@ -1,6 +1,6 @@
 ################################################################################
 # WeBWorK Online Homework Delivery System
-# Copyright © 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
+# Copyright Â© 2000-2007 The WeBWorK Project, http://openwebwork.sf.net/
 # $CVSHeader: webwork2/lib/WeBWorK/ContentGenerator/Home.pm,v 1.19 2006/07/12 01:23:54 gage Exp $
 # 
 # This program is free software; you can redistribute it and/or modify it under
@@ -85,7 +85,8 @@ sub body {
 		}
 	}
 	
-	print CGI::p($r->maketext("Welcome to WeBWorK!"));
+	print CGI::p($r->maketext("Welcome to our WeBWorK instance! Usually you will access courses directly and not see this website. Click on your course in the list of HiB and UiB courses below. Contact your course administrator if you have questions."));
+	
 	
 	if ($haveAdminCourse and !(-f "$coursesDir/admin/hide_directory")) {
 		my $urlpath = $r->urlpath->newFromModule("WeBWorK::ContentGenerator::ProblemSets", $r, courseID => "admin");

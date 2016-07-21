@@ -64,7 +64,7 @@ $mail{feedbackRecipients}    = [
 $enableGitUpgradeNotifier = 0;
 
 $gitWeBWorKRemoteName = "origin";
-$gitWeBWorKBranchName = "master";
+$gitWeBWorKBranchName = "dev";
 $gitPGRemoteName = "origin";
 $gitPGBranchName = "master";
 $gitLibraryRemoteName = "origin";
